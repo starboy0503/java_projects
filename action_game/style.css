@@ -67,3 +67,12 @@ body{
         left: -10vw;
     }
 }
+#scoreConst{
+    position: relative;
+    left: 23px;
+    top: 23px;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
