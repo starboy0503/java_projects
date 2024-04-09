@@ -27,8 +27,76 @@
     height: 50vh;
 }
 .section1{
-    
+    max-height: 100vh;
 }
 .logo{
     font-size: 1.2rem;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.box{
+    margin: 12px 22px;
+    min-width: 22vw;
+    border: 2px solid  rgb(254 178 86);
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 6px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.section2p{
+    font-size: 23px; 
+}
+.plantable{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin: 20px 0 ;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom:2px solid rgb(254 178 86);
+    border-right:2px solid rgb(254 178 86) ;
+    border-left: 2px solid rgb(254 178 86);
+    border-top: 2px solid rgb(254 178 86);
+    border-radius: 2px;
+    font-size: 22px;
+    
+}
+.section3 table td{
+    width: 23vw;
+    border-bottom:2px solid rgb(254 178 86);
+    border-right:2px solid rgb(254 178 86) ;
+    border-left: 2px solid rgb(254 178 86);
+    border-top: 2px solid rgb(254 178 86);
+    border-radius: 2px;
+    padding: 0 0% 1% 0%;
+    
+}
+.section3 {
+   padding-left: 63px;
+   padding-right: 63px;
+    
+}
+footer{
+    padding: 23px;
+    text-align: center;
 }
