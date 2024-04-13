@@ -5,6 +5,7 @@ html,body{
     font-family:  'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    height: 122px;
 }
 header{
     position: sticky;
@@ -25,19 +26,60 @@ nav ul li{
     list-style: none;
     padding: 0 12px;
 }
-.section1{
+.section1
+{
+
     background: #f2f2f2; 
-    height: 122vh;
+    
 }
 .container{
 
     padding:  0 10vw ;
     
 }
-.search{
-    width: 32vw;
-    padding: 7px 17px;
-    border: 0.5px solid grey;
-    background: #f7f8fd;
-    border-radius: 5px;
+@media (max-width: 450px) { 
+    .search {
+        width: 120vw; 
+    }
+    }
+.homeImg{
+    width: 80vw;
+    margin: 12px 0;
 }
+.itemImg{
+    width: 10vw;
+    margin: 6px 12px;
+  }
+.rightBox{
+    display: flex;
+    margin: 12px;
+  }
+  .left img{
+    width: 32px;
+    height: 23px;
+  }
+  footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+  .tall{
+    min-height: 40vh;
+  }
+  @media (max-width: 1550px)
+{ 
+
+    nav ul li 
+    {
+      list-style: none;
+      padding: 0 4px;
+      font-size: 10px;
+     }
+}
+.right{ 
+    flex-direction: column;
+  }
+  rightBox{
+    display: flex;
+    margin: 12px;
+  }
